@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Lab #3</title>
+</head>
+
+
+<body>
+    <h1>Riley Lyles Lab #3</h1>
+    <p>This tool converts temperatures from Fahrenheit to Celcius or Kelvin.</p>
+
+    <!--Reference: https://www.w3schools.com/tags/tag_input.asp-->
+    <p>Enter temperature in Fahrenheit:</p>
+
+    <p><input type="text" id="inputF" autofocus></p>
+
+    <p>Select a conversion:
+        <select id="conversionChoice">
+            <option value="c">Celsius</option>
+            <option value="k">Kelvin</option>
+        </select>
+    </p>
+
+    <button id="submit">Convert</button>
+
+    <div id="output"></div>
+</body>
+
+
+<script src="output.js"></script>
+<script src="temp-conversion.js"></script>
+
+</html>
