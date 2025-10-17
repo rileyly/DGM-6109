@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Riley Lyles Lab #5 - Fall 2025</title>
+    <script src="libraries/d3.min.js"></script>
+    <script src="libraries/polygon.js"></script>
+
+    <!-- Include classmate scripts here. Put them in directory "elements" in your project -->
+    <script src="elements/ladybug.js"></script>
+    <script src="elements/butterfly.js"></script>
+    <script src="elements/panda.js"></script>
+    <script src="elements/drummer.js"></script>
+    <script src="elements/rabbit.js"></script>
+    <script src="elements/fish.js"></script>
+    <script src="elements/caterpillar.js"></script>
+    <script src="elements/dog.js"></script>
+    <script src="elements/trumpeter.js"></script>
+    <script src="elements/elephant.js"></script>
+    <script src="elements/duck.js"></script>
+</head>
+
+<body>
+    <!-- Change this list to include your drawing and those of your classmates -->
+    <p>Select the first element for your drawing:<select id="choice1">
+        <option selected value="rooster">Rooster</option>
+        <option selected value="ladybug">Ladybug</option>
+        <option selected value="butterfly">Butterfly</option>
+        <option selected value="panda">Panda</option>
+        <option selected value="drummer">Drummer</option>
+        <option selected value="rabbit">Rabbit</option>
+        <option selected value="fish">Fish</option>
+        <option selected value="caterpillar">Caterpillar</option>
+        <option selected value="bulldog">Bulldog</option>
+        <option selected value="trumpeter">Trumpeter</option>
+        <option selected value="elephant">Elephant</option>
+        <option selected value="duck">Duck</option>
+    </select></p>
+
+    <p>Position your first element: x:<input type="number" id="x1" value="100">, y:<input type="number" id="y1" value="300"></p>
+
+    <!-- Change this list to include your drawing and those of your classmates -->
+    <p>Select the second element for your drawing:<select id="choice2">
+        <option selected value="rooster">Rooster</option>
+        <option selected value="ladybug">Ladybug</option>
+        <option selected value="butterfly">Butterfly</option>
+        <option selected value="panda">Panda</option>
+        <option selected value="drummer">Drummer</option>
+        <option selected value="rabbit">Rabbit</option>
+        <option selected value="fish">Fish</option>
+        <option selected value="caterpillar">Caterpillar</option>
+        <option selected value="bulldog">Bulldog</option>
+        <option selected value="trumpeter">Trumpeter</option>
+        <option selected value="elephant">Elephant</option>
+        <option selected value="duck">Duck</option>
+    </select></p>
+
+    <p>Position your second element: x:<input type="number" id="x2" value="300">, y:<input type="number" id="y2" value="300"></p>
+
+    <p>Show origin points: <select id="origins">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select></p>
+
+    <button id="action">Draw!</button>
+    <div id="canvas"></div>
+</body>
+
+<script src="elements/rooster.js"></script>
+<script src="main.js"></script>
+
+</html>
