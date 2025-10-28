@@ -1,0 +1,65 @@
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+/* 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
+*/
+
+.grid {
+    display: grid;
+}
+
+.grid.gutters {
+    column-gap: 1rem;
+    row-gap: .5rem;
+}
+
+/* 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+https://www.geeksforgeeks.org/html/how-to-wrap-text-in-html/
+*/
+
+@media (min-width: 20rem){
+    .grid.two-column, .grid.four-column {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+    h1 {
+        word-wrap: break-word;
+    }
+}
+
+@media(min-width: 64rem) {
+    .grid.four-column {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+    .grid.two-column {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid.two-pics{
+        grid-template-columns: 1fr 1fr;
+    }
+    p {
+        max-width: 80rem;
+    }
+}
+
+@media(min-width: 120rem) {
+    .grid.gutters {
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+    .grid.wide-column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+    }
+} 
