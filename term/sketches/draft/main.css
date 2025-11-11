@@ -1,0 +1,17 @@
+body {
+    font-family: monospace;
+     margin: 4rem;
+}
+
+h1, nav {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+p, li {
+    padding-bottom: .5rem;
+}
