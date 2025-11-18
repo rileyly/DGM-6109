@@ -1,0 +1,47 @@
+ header {
+    background-color: #D1D6DB;
+    padding: 2rem 2rem 3rem 2rem;
+    margin: -1rem -1rem 1rem -1rem;
+    text-align: center;
+    border-bottom: 2rem;
+    border-bottom-color: black;
+
+ }
+
+
+section {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: justify;
+}
+
+* {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: -5rem;
+    text-decoration: underline;
+}
+
+p, li {
+    padding-bottom: .5rem;
+}
+
+hr{
+    height: .2rem;
+    background-color: black;
+    margin: -1rem -1rem 0rem -1rem;
+}
