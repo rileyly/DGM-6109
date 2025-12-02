@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="main.css">
+
+    <title>Moverite.com - Quiz</title>
+
+</head>
+
+
+<body>
+
+        <header class="grid four-column">
+            <div class="mainlogo"><a href="index.html"><img src="images/clearlogosmall.png" alt="moveritelogo"></a></div>
+            <a href="signin.html" id="signinhead" class="signinbutton">Sign in</a>
+        </header>
+
+    <div class="progressmeter" id="quizmeter">
+        <div class="meterfill"></div>
+    </div>
+
+    <div class="quizbox">
+        <h3>Is this your first time renting?</h3>
+
+        <div class="response">
+            <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio-->
+            <input type="radio" id="newrenter" name="firsttime">
+            <label for="newrenter">Yes, I am new to renting!</label>
+        </div>
+
+        <div class="response">
+            <input type="radio" id="returnrenter" name="firsttime">
+            <label for="returnrenter">No, I have rented before.</label>
+        </div>
+
+        <div class="response">
+            <input type="radio" id="unsure" name="firsttime">
+            <label for="unsure">I'm not sure...</label>
+        </div>
+
+        <div class="quizbuttons">
+            <button class="back-button">Back</button>
+            <button class="next-button2">Next</button>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
