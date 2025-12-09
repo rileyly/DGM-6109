@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="main.css">
+
+    <title>Moverite.com - Create Account</title>
+
+</head>
+
+
+<body>
+
+        <header class="grid four-column">
+            <div class="mainlogo"><a href="index.html"><img src="images/clearlogosmall.png" alt="moveritelogo"></a></div>
+            <a href="signin.html" id="signinhead" class="signinbutton">Sign in</a>
+        </header>
+
+
+    <div class="grid-two">
+        <!--developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label
+            https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/password
+        -->
+        <div class="signup">
+            <h3>Create Account</h3>
+            <p id="already">Already have an account? <a href="signin.html" id="plain">Sign in.</a></p>
+            <form>
+                <p>
+                <label>
+                    First Name
+                    <input type="text" id="firstname" >
+                </label>
+                <p>
+                <label>
+                    Last Name <input type="text" id="lastname">
+                </label>
+                </p>
+                <p>
+                <label>
+                    Email <input type="email" id="useremail">
+                </label>
+                </p>
+                <p>
+                <label>
+                    Password <input type="password" id="password">
+                </label>
+                </p>
+                <p>
+                <label>
+                    Confirm Password <input type="text" id="password2">
+                </label>
+                </p>
+                <!--<button type="submit">Create Account</button>-->
+                <a href="articlesignedin.html" class="signin button">Create Account</a>
+            </form>
+        </div>
+         <div class="welcome"><img src="images/welcome.jpeg" alt="welcome"></div>
+    </div>
+    
+
+
+        <footer>
+            <div class="grid four-column">
+            <div class="address">
+                <h4>Get in Touch</h4>
+                    <address> <!--https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features-->
+                    <p>
+                        MoveRiteInc <br>
+                        410 W Georgia St <br> 
+                        Vancouver, B.C. <br> 
+                    </p>
+                    <p>
+                        604-123-4567 <br>
+                        info@moverite.com 
+                    </p>
+                    </address>
+            </div>
+            <div class="newsletter">
+                <h4>Sign up for our newsletter</h4>
+                    <label><input id="newsmail" type="text" placeholder=" Email address"></label>
+                    <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder-->
+                    <p><input type="submit" id="newsbutton" value="Submit"></p>
+            </div>
+            </div>
+                <img src="images/clearlogosmall.png" id="footerlogo" alt="moveritelogo">
+
+        </footer>
+
+</body>
+
+</html>

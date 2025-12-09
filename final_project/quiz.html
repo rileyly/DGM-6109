@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="main.css">
+
+    <title>Moverite.com - Question 1</title>
+
+</head>
+
+
+<body>
+
+        <header class="grid four-column">
+            <div class="mainlogo"><a href="index.html"><img src="images/clearlogosmall.png" alt="moveritelogo"></a></div>
+            <a href="signin.html" id="signinhead" class="signinbutton">Sign in</a>
+        </header>
+    <div class="allquiz">
+        <div class="progressmeter" id="quizmeter">
+            <div class="meterfill"></div>
+        </div>
+
+        <div class="quizbox">
+            <h3>Is this your first time renting?</h3>
+
+            <div class="response">
+                <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio-->
+                <input type="radio" id="newrenter" name="firsttime">
+                <label for="newrenter">Yes, I am new to renting!</label>
+            </div>
+
+            <div class="response">
+                <input type="radio" id="returnrenter" name="firsttime">
+                <label for="returnrenter">No, I have rented before.</label>
+            </div>
+
+            <div class="response">
+                <input type="radio" id="unsure" name="firsttime">
+                <label for="unsure">I'm not sure...</label>
+            </div>
+            <div class="quizbuttons">
+                <!--https://www.geeksforgeeks.org/html/how-to-create-an-html-button-that-acts-like-a-link/-->
+                <button onclick="window.location.href='index.html'" class="back-button">Back</button>
+                <button onclick="window.location.href='quiz2.html'" class="next-button2">Next</button> 
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
