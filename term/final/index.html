@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Riley Lyles - Term Project Final</title>
+    
+    <script src="d3.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="normalize.css" >
+    <link rel="stylesheet" type="text/css" href="main.css" >
+</head>
+
+<body>
+
+    <h2>Using sunny days to explore new places keeps me engaged with photography.</h2>
+
+    <div id="canvas"></div>
+    <hr>
+
+    <div class="report">
+            <div class = "title">
+                <h2>Research Report</h2>
+            </div> 
+            <div class="question section">
+                <h3>Research Question</h3>
+                    <div class="content">
+                        <p>This project explores whether taking more walks inspires me to take more photos. </p>
+                        <p><strong>Hypothesis:</strong> As the number of steps I take increases, the number of photos I take increases. </p>
+                        <p><strong>Second factor:</strong> Rainy conditions may negatively affect how much I walk and/or how many photos I take. </p>
+                        <p><strong>Third factor:</strong> I also hypothesize that I take more photos when visiting new, 
+                            unfamiliar places than when I spend time familiar ones (e.g. my own neighbourhood). </p>
+                    </div>
+            </div>
+            <hr>
+            <div class="data-overview section">
+                <h3>Data Overview</h3>
+                    <div class="content">
+                        <div class="data">
+                            <h4>Basic Data</h4>
+                            <ul>
+                                <li>Date</li>
+                                <li>Number of steps walked</li>
+                                <li>Number of photos taken</li>
+                            </ul>
+                            <h4>Weather</h4>
+                            <ul>
+                                <li>Amount of precipitation (mm)</li>
+                                <li>Temperature (C; high, low)</li>
+                            </ul>
+                            <h4>Personal</h4>
+                            <ul>
+                                <li>Energy level (1-10; am, pm)</li>
+                            </ul>
+                            <h4>Location Data</h4>
+                            <ul>
+                                <li>Number of locations visited</li>
+                                <li>List of locations visited</li>
+                                <li>Level of familiarity with location visited (1-5)</li>
+                                <li>Average daily level of familiarity</li>
+                                <li>Maximum distance traveled from home (km)</li>
+                                <li>Did I visit a park? (true/false)</li>
+                                <li>Did I visit a shopping corridor? (true/false)</li>
+                                <li>Did I travel to campus for class? (true/false)</li>
+                            </ul>
+                            <h4>Travel Method</h4>
+                            <ul>
+                                <li>Did I travel via bus? (true/false)</li>
+                                <li>Did I travel via Skytrain? (true/false)</li>
+                            </ul>
+                        </div>
+                        <p>The bare minimum data I needed to answer my question were: <em>date</em>, <em>steps</em>, and <em>photos</em>.</p>
+                        <p>I included weather data because I was curious if outdoor conditions (like rain, snow, extremes of heat and cold) would play a role 
+                            in how much I walk. </p>
+                        <p></p>
+                        <p>My data covers a <em>daily</em> time scale. However, data not subject to memory decay (e.g. max distance, photo count, boolean variables) 
+                            were logged retroactively, on an approximately weekly basis. 
+                        </p>
+                    </div>
+            </div>
+            <hr>
+            <div class="conclusion section">
+                <h3>Conclusion</h3>
+                    <div class="content">
+                        <p>Based on my visualization, it does appear that
+                            walking more leads to more photos.</p>
+                        <p>On rainy days, not only am I less likely to take photos, I'm
+                            less likely to leave the house except as required. 
+                        </p>
+                        <p>I also tend to surpass my average photo count 
+                            when visiting locations with which I am less familiar. 
+                        </p>
+                    </div>
+            </div>
+    </div>
+<script src="main.js"></script>
+</body>
+
+</html>

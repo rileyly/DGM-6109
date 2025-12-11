@@ -1,0 +1,107 @@
+/* GENERAL STYLING */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #582630;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    color: #492C1D;
+    opacity: .8;
+    border-width: .4rem;
+}
+
+
+/* CHART STYLING */
+.legend {
+    font-size: 11px;
+}
+
+#canvas {
+    margin: auto;
+    width: 1000px;
+    margin-bottom: 4rem;
+}
+
+/* Colour for axis path from the xy axis ticks (i.e. match margin stroke colour)*/
+.domain {
+    stroke: #663D29;
+}
+
+/* Colour the axis numbers and tick marks*/
+text, line {
+    color: #663D29;
+}
+
+
+/** REPORT STYLING **/
+
+/* Report General */
+.report {
+    margin: auto;
+    margin-top: 3rem;
+    width: 750px;
+    color: #492C1D;
+    font-family: monospace;
+}
+
+/* Report title */
+.report h2 {
+    font-size: 3.5rem;
+    color: #EEF5DB;/* #fbeedd; */
+    font-family: monospace;
+}
+
+.title {
+    padding: 5rem;
+    background-color: #548C2F;
+    opacity: .7;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/* Section General */
+.section{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* Section title */
+.report h3 {
+    font-size: 1.6rem;
+    color: #548C2F;
+    opacity: .9;
+    text-decoration: underline;
+}
+
+/* Section subtitle */
+.report h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+
+/* Report Content */
+.report p, li{
+    font-size: .95rem;
+}
+
+.report p {
+    margin-bottom: 1.5rem;
+}
+
+.content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/* Data Section */
+
+.data {
+    margin-bottom: 2.5rem;
+}
